@@ -1,0 +1,52 @@
+.weekly {
+    @media #{$small} {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        .image {
+            width: 40%  !important;
+        }
+        .info {
+            width: 55% !important;
+        }
+    }
+    @media #{$mobile} {
+        margin-bottom: 20px;
+    }
+    padding: 20px 20px;
+    .image {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .info {
+        width: 100%;
+    }
+}
+
+.tip-container {
+    @media #{$small} {
+        padding: 20px 50px;
+        .tip {
+            width: 30%;
+        }
+    }
+    @media #{$mobile} {
+        margin-bottom: 20px;
+        .tip {
+        margin-bottom: 20px;
+        }
+    }
+    padding: 20px 20px;
+    .tip {
+        .image {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
